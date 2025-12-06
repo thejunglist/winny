@@ -1,0 +1,13 @@
+VP-778 - Using the Embedded Web Pages 63 
+ 
+ 
+9.2.7 Auto Switching 
+To set the auto switching mode: 
+1. In the Navigation pane, click Routing & Scaling. The Routing & Scaling 
+page appears. 
+2. Click Auto Switching. 
+The Auto Switching window appears: 
+ 
+Figure 31: Routing & Scaling Page – Auto Switching Window 
+3. Open the drop-down list to set the switching mode (Off, Scan or Last 
+Connected).
