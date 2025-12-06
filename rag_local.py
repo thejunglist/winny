@@ -137,15 +137,5 @@ if __name__ == "__main__":
 
     query_question_2 = "what is the function of this device"
     query_rag(rag_chain, query_question_2)
-loaded_docs = load_documents()
-chunks = split_documents(loaded_docs) # Call this later
-embedding_function = get_embedding_function()
-vector_store = get_vector_store(embedding_function) # call this later
-vector_store = index_documents(chunks, embedding_function)
-rag_chain = create_rag_chain(vector_store)
-"""To load an existing persistent database later
-embedding_function = get_embedding_function()
-vector_store = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
 
-"""
  
